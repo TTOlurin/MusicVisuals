@@ -22,6 +22,7 @@ Press the '1' key to toggle between cube and twocube
 Press the '2' key to toggle between cube and sphere
 Press the '3' key to toggle between cube and medley
 Press '9' to stop the music
+*You need to toggle back to cube to be able to select a different function*
 
 # How it works
 The shapes are synchronised with the audio signals using the getAmplitude() function so they widen 
