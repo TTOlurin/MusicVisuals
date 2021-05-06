@@ -1,8 +1,8 @@
 # Music Visualiser Project
 
-Name:
+Name: Titilola Olurin
 
-Student Number: 
+Student Number: c19502146
 
 ## Instructions
 - Fork this repository and use it a starter project for your assignment
@@ -12,78 +12,27 @@ Student Number:
 - Check out the WaveForm and AudioBandsVisual for examples of how to call the Processing functions from other classes that are not subclasses of PApplet
 
 # Description of the assignment
+This program draws shapes that react to audio.
 
 # Instructions
+The program requires user input.
+Functions:
+Press the '0' key to start/restart the music
+Press the '1' key to toggle between cube and twocube
+Press the '2' key to toggle between cube and sphere
+Press the '3' key to toggle between cube and medley
+Press '9' to stop the music
 
 # How it works
+The shapes are synchronised with the audio signals using the getAmplitude() function so they widen 
+and/or move across the screen depending on how loud or quiet the music is at that point in time.
 
 # What I am most proud of in the assignment
+I'm proud that I was able to use the skills I learned in class to create something beautiful.
+This program was inspired my granddad who is a huge Isaac Hayes fan and introduced me to his music
+which I fell in love with instantly. 
+Being able to combine Isaac Hayes and programming is very satisfying to me.
 
-# Markdown Tutorial
 
-This is *emphasis*
 
-This is a bulleted list
-
-- Item
-- Item
-
-This is a numbered list
-
-1. Item
-1. Item
-
-This is a [hyperlink](http://bryanduggan.org)
-
-# Headings
-## Headings
-#### Headings
-##### Headings
-
-This is code:
-
-```Java
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-So is this without specifying the language:
-
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-This is an image using a relative URL:
-
-![An image](images/p8.png)
-
-This is an image using an absolute URL:
-
-![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
-
-This is a youtube video:
-
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
-
-This is a table:
-
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
 
